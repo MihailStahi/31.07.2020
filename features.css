@@ -1,0 +1,102 @@
+#features{
+    background: #eeeeff;
+    padding: 200px;
+}
+#features .container{
+    width: 1600px;
+    /* background-color: #777; */
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+}
+#features  header {
+    /* background-color: green; */
+    width: 500px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -4px;
+    padding-right: 50px;
+    text-align: right;
+ }
+#features  ul { 
+    padding: 0;
+    /* background-color: brown; */
+    width: 660px;
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+    margin-left: 70px;
+}
+#features  li{
+    background-color: #fff;
+    width: 260px;
+    height: 390PX;
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 30px 20px;
+    vertical-align: middle;
+    transform: rotate(15deg);
+    box-shadow: 3px 5px 8px 3px #ddd;
+}
+
+#features h1{
+    color: darkblue;
+    }
+    #features h2{
+        font-weight: 700;
+        font-size: 50px;
+    }
+#features h3{
+    font-weight: 700;
+    font-size: 30px;
+   
+    
+}
+#features header h3{
+    font-weight: 700;
+    font-size: 25px;
+        color:#232;
+    
+    
+}
+#features h3 img {
+    border-radius: 100px;
+   background-color: transparent;
+    
+}
+#features h3 img:hover {
+   transform: rotateY(-110deg);
+    
+}
+
+#features p{
+        font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 70px;
+    }
+    #features span{
+        color: tomato;
+    }
+#features a.btn {
+    /* background-color: blue; */
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 40px;
+    border-radius: 2px;
+    background-image: linear-gradient( 90deg, #dd4a4d, #dd4a1d );
+    letter-spacing: 1px;
+    transition: 0.5s;
+    
+    /* margin-top: 100px; */
+    }
+    #features a.btn:hover{
+    background-position: -145px 0px ; 
+    }
+    #features .deco{
+        color: gainsboro;
+         font-size: 6000px;
+         height: 0px;
+         transform: translatey(-2900px) translateX(3000px) scaleX(-10);
+     }
